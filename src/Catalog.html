@@ -1,0 +1,236 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+		<meta charset="utf-8"> 
+		<title>Catalog</title> 
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/fonts.css">  
+		<link rel="stylesheet" type="text/css" href="css/main.css"> 
+	</head> 
+	<body>
+		<nav>
+			<header>
+				<ul class="first">
+					<li>
+						<a href="index.html" class="logo"><img src="img/logo.png" alt=""></a>
+					</li>
+					<li class="menu">
+						<a href="#" class="underlined checked"><span class="span">Каталог</span></a>
+						<ul class="main-navigation-sub">
+			                <li>
+			                  <span class="main-navigation-title">Новинки</span>
+			                </li>
+			                <li>
+			                  <a href="#">Сливочное</a>
+			                </li>
+			                <li>
+			                  <a class="active">Щербеты</a>
+			                </li>
+			                <li>
+			                  <a href="#">Фруктовый лёд</a>
+			                </li>
+			                <li>
+			                  <a href="#">Мелорин</a>
+			                </li>
+		              </ul>
+					</li>
+					<li>
+						<a href="#" class="underlined"><span>Доставка и оплата</span></a>
+					</li>
+					<li>
+						<a href="#" class="underlined"><span>О Компании</span></a>
+					</li>
+				</ul>
+				<ul class="second">
+					<li class="looper"><a href="#" class="loop">
+							<img src="img/loop.png" alt="" class="oop">
+						</a>
+              			<div class="common-buttons-form common-buttons-form-search">
+                			<div class="input-field common-buttons-input-field">
+                  				<input id="search" type="text" name="search" placeholder="Что ищем?">
+               				</div>
+              			</div>
+					</li>
+					<li class="enter-animation"><a href="#" class="enter">Вход</a>            
+	                	<form action="#" method="get">
+	                  		<div class="input-field">
+	                    		<input id="login" type="email" name="login" placeholder="Электронная почта">
+	                  			</div>
+	                 	 	<div class="input-field">
+	                    		<input id="password" type="password" name="password" placeholder="Пароль">
+	                  		</div>
+	                  			<input class="btn" type="submit" value="Войти">
+	                  		<div class="form-login-hrefs">
+	                    		<a class="bright" href="#"><span>Забыли пароль?</span></a>
+	                    		<a class="bright" href="#"><span>Новая регистрация</span></a>
+	                  		</div>
+	                	</form>
+					</li>
+					<li><a href="#" class="empty">Пусто</a></li>
+				</ul>
+			</header>
+				<div class="tree">
+					<ul>
+						<li><a href="index.php"><span class="some">Главная</span></a><span class="raquo">&raquo;</span></li>
+						<li><a href="#"><span class="some">Каталог</span></a><span class="raquo">&raquo;</span></li>
+						<li>Сливочное</li>
+						<li class="informaton-cat">
+			            	<p>С 10 до 20, ежедневно</p>
+			            	<p>8 812 450-25-25</p>
+			        	</li>
+					</ul>
+					<p>Сливочное мороженое</p>
+			      <form class="filters" action="#" method="get">
+			        <div class="filters-label">
+			          <div class="filter-title">Сортировка:</div>
+			          <div class="wrap-select-sort">
+			            <select name="sort">
+			              <option value="popular">по популярности</option>
+			              <option value="up">сначала недорогие</option>
+			              <option value="down">сначала дорогие</option>
+			              <option value="fat">по жирности</option>
+			            </select>
+			          </div>
+			        </div>
+			        <div class="filters-label">
+			          <div class="filter-title">Цена: 100 руб. – 500 руб.</div>
+			          <div class="filter-cost">
+			            <div class="scale"></div>
+			            <div class="bar"></div>
+			            <div class="range-toggle"></div>
+			            <div class="range-toggle"></div>
+			          </div>
+			        </div>
+			        <fieldset>
+			          <legend class="filter-title">Жирность:</legend>
+			          <div class="container-buttons">
+			            <input id="fat-0" type="radio" name="fat" value="0"><label for="fat-0">0%</label>
+			            <input id="fat-<10" type="radio" name="fat" value="<10" checked><label for="fat-<10">до 10%</label>
+			            <input id="fat-<30" type="radio" name="fat" value="<30"><label for="fat-<30">до 30%</label>
+			            <input id="fat->30" type="radio" name="fat" value=">30"><label for="fat->30">выше 30%</label>
+			          </div>
+			        </fieldset>
+			        <fieldset>
+			          <legend class="filter-title">Наполнители:</legend>
+			          <div class="container-buttons">
+			            <input id="chocolate" type="checkbox" name="sugar" value="chocolate" checked><label for="chocolate">шоколадные</label>
+			            <input id="sugar" type="checkbox" name="sugar" value="sugar" checked><label for="sugar">сахарные присыпки</label>
+			            <input id="fruit" type="checkbox" name="sugar" value="fruit"><label for="fruit">фрукты</label>
+			            <input id="syrop" type="checkbox" name="sugar" value="syrop"><label for="syrop">сиропы</label>
+			            <input id="jam" type="checkbox" name="sugar" value="jam"><label for="jam">джемы</label>
+			          </div>
+			        </fieldset>
+			        <input class="btn-filter" type="submit" value="Применить">
+			      </form>
+				</div>
+				<div class="container-doublemini">
+					<ul class="ice-cream-small">
+						<li class="hover-img">
+							<div class="img-hit1 hit1-1">
+							</div>
+							<p><a href="#">Сливочное с апельсиновым джемом и цитрусовой стружкой</a></p>
+							<input class="button-back" type="submit" value="Быстрый просмотр">
+						</li>
+						<li class="hover-img">
+							<div class="img-hit1 hit1-2"></div>
+							<p><a href="#">Сливочно-кофейное с кусочками шоколада</a></p>
+							<input class="button-back" type="submit" value="Быстрый просмотр">			
+						</li>
+						<li class="hover-img">
+							<div class="img-hit1 hit1-3"></div>
+							<p><a href="#">Сливочно-клубничное с присыпкой из белого шоколада</a></p>
+							<input class="button-back" type="submit" value="Быстрый просмотр">					
+						</li>
+						<li class="hover-img">
+							<div class="img-hit1 hit1-4"></div>
+							<p><a href="#">Сливочное крем-брюле с карамельной подливкой</a></p>
+							<input class="button-back" type="submit" value="Быстрый просмотр">					
+						</li>
+					</ul>
+					<ul class="ice-cream-small">
+						<li class="hover-img">
+							<div class="img-hit1 hit2-1">
+							</div>
+							<p><a href="#">Сливочное с апельсиновым джемом и цитрусовой стружкой</a></p>
+							<input class="button-back" type="submit" value="Быстрый просмотр">
+						</li>
+						<li class="hover-img">
+							<div class="img-hit1 hit2-2"></div>
+							<p><a href="#">Сливочно-кофейное с кусочками шоколада</a></p>
+							<input class="button-back" type="submit" value="Быстрый просмотр">			
+						</li>
+						<li class="hover-img">
+							<div class="img-hit1 hit2-3"></div>
+							<p><a href="#">Сливочно-клубничное с присыпкой из белого шоколада</a></p>
+							<input class="button-back" type="submit" value="Быстрый просмотр">					
+						</li>
+						<li class="hover-img">
+							<div class="img-hit1 hit2-4"></div>
+							<p><a href="#">Сливочное крем-брюле с карамельной подливкой</a></p>
+							<input class="button-back" type="submit" value="Быстрый просмотр">					
+						</li>
+					</ul>
+					<ul class="ice-cream-small">
+						<li class="hover-img">
+							<div class="img-hit1 hit3-1">
+							</div>
+							<p><a href="#">Сливочное с апельсиновым джемом и цитрусовой стружкой</a></p>
+							<input class="button-back" type="submit" value="Быстрый просмотр">
+						</li>
+						<li class="hover-img">
+							<div class="img-hit1 hit3-2"></div>
+							<p><a href="#">Сливочно-кофейное с кусочками шоколада</a></p>
+							<input class="button-back" type="submit" value="Быстрый просмотр">			
+						</li>
+						<li class="hover-img">
+							<div class="img-hit1 hit3-3"></div>
+							<p><a href="#">Сливочно-клубничное с присыпкой из белого шоколада</a></p>
+							<input class="button-back" type="submit" value="Быстрый просмотр">					
+						</li>
+						<li class="hover-img">
+							<div class="img-hit1 hit3-4"></div>
+							<p><a href="#">Сливочное крем-брюле с карамельной подливкой</a></p>
+							<input class="button-back" type="submit" value="Быстрый просмотр">					
+						</li>
+					</ul>										
+				</div>				
+				<div class="paginator-box">
+			        <ul>
+			          <li class="catalog-pages-li-first"><a href="#"><img src="img/стрелочка-влево.png" width="13" height="12" alt="Назад"></a></li>
+			          <li><a class="paginator-btn-active" href="#">1</a></li>
+			          <li><a href="#">2</a></li>
+			          <li><a href="#">3</a> </li>
+			          <li><a href="#">4</a></li>
+			          <li> <a href="#">5</a></li>
+			          <li class="catalog-pages-li-last"><a href="#"><img src="img/стрелочка-вправо.png" width="13" height="12" alt="Вперёд"></a></li>
+			        </ul>
+      			</div>		
+
+			<footer>
+				<div class="footer-container">
+	        		<div class="footer-social">
+          				<a class="social-btn social-btn-tw" href="#">Твиттер</a>
+          				<a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+          				<a class="social-btn social-btn-fb" href="#">Фэйсбук</a>
+          				<a class="social-btn social-btn-vk" href="#">ВКонтакте</a>
+        			</div>
+					<div class="links-pair">
+						<ul class="links-one">
+							<li class="for-suppliers"><a href="#"><span>Для поставщиков</span></a></li>
+							<li><a href="#"><span>О производстве</span> </a></li>
+						</ul>
+						<ul class="links-two">
+							<li><a href="#"><span>Наши документы</span></a></li>
+							<li><a href="#"><span>Экологические стандарты</span></a></li>
+						</ul>
+					</div>
+					<ul class="links-logo">
+						<li><a href="#"><img src="img/academy.png" alt=""></a></li>
+						<li class="made"><p>Сделано в <a href="#"><span>HTML Academy</span></a> &copy; 2016</p></li>
+					</ul>
+				</div>				
+			</footer>
+		</nav>
+	<script src="js/all-scripts.js"></script>
+	</body>
+</html>

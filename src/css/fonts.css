@@ -1,0 +1,21 @@
+
+@font-face{
+font-family:"montserrat" ;
+src:url("../fonts/montserrat/montserrat.ttf")format("truetype");
+font-style: normal;
+font-weight: normal;
+}
+
+@font-face{
+font-family:"roboto-regular" ;
+src:url("../fonts/roboto-regular/roboto-regular.ttf")format("truetype");
+font-style: normal;
+font-weight: normal;
+}
+
+@font-face{
+font-family:"roboto-bold" ;
+src:url("../fonts/roboto-bold/roboto-bold.ttf")format("truetype");
+font-style: normal;
+font-weight: normal;
+}

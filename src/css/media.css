@@ -1,0 +1,59 @@
+@media all and (min-width: 1600px){.img-hit1{height: 270px;width: 267px;}.button-back{margin-left: 15%;}}
+@media all and (max-width: 1600px){
+  .common-buttons-form{left: 60%;}
+  .enter-animation form{
+    right:0%;
+  }
+  .button-back{margin-left: 15%;}
+.img-hit1, .img-back{height: 270px;width: 267px;}
+}
+
+@media all and (max-width: 1400px){
+  .common-buttons-form{
+    left: 55.7%;
+  }
+  .enter-animation form{
+    right:0%;
+  }
+.img-hit1{height: 270px;width: 267px;}
+.button-back{margin-left: 15%;}
+}
+
+@media all and (max-width: 1200px){
+  .common-buttons-form{
+    left:50%;
+  }
+  .enter-animation form{
+    right:0%;
+  }
+  .ice-cream-big{justify-content: space-between;}
+  .ice-cream-small li{
+    padding-right: none;
+  }
+  .img-hit1{height: 270px;width: 267px;}
+  .hover-img p{height: 50px;}
+ .img-hit1 .button-back{margin-left: 15%;}
+}
+
+@media all and (max-width: 1199px){.img-hit1{height: 235px;width: 230px;}.button-mail{min-width: 250px;}}
+@media all and (max-width: 975px){.ice-cream-small{justify-content: space-between;height: 290px;}.img-hit1{height: 215px;width: 210px;}.button-mail{min-width: 250px;}}
+@media all and (max-width: 900px){
+  .enter{
+    margin-right: 8px;
+  }
+  .loop{
+    margin-right: 8px;
+  }
+  .common-buttons-form{
+    left: 35%;
+  }
+  .enter-animation form{
+    right:8%;
+  } 
+  .container-new .new-ice .first p{margin-right: 10%;}
+  .hover-img p{height: 70px;}
+  .button-back{margin-left: 6%;}
+  }
+
+ 
+ 
